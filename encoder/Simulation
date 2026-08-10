@@ -1,0 +1,3 @@
+iverilog -o sim/encoder_4to2_sim src/encoder_4to2.v tb/encoder_4to2_tb.v
+vvp sim/encoder_4to2_simiverilog -o sim/encoder_4to2_sim src/encoder_4to2.v tb/encoder_4to2_tb.v
+vvp sim/encoder_4to2_sim
